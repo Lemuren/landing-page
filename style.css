@@ -5,14 +5,9 @@
  */
 
 body {
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;
-    */
-
     margin: 0;
-
     font-family: 'Open Sans', sans-serif;
+    background-color: #fbfcfb;
 }
 
 a {
@@ -53,6 +48,11 @@ a {
     color: #fbfcfb;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Middle material */
 .information h2 {
@@ -62,9 +62,81 @@ a {
 
 .card-container {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .card img {
     width: 200px;
     height: 200px;
 }
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #B5C9BB;
+}
+
+.quote p {
+    margin: 0;
+    padding: 42px;
+}
+
+#attribution {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* Bottom stuff */
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 64px;
+}
+
+.call-to-action {
+    display: flex;
+    color: #fbfcfb;
+    background-color: #dbaa24;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px 64px;
+    border-radius: 12px;
+
+}
+
+.call-to-action h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+}
+
+.call-to-action a {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fbfcfb;
+    border-radius: 8px;
+    padding: 4px 32px;
+
+    font-weight: bold;
+}
+
+.footer {
+    color: #fbfcfb;
+    background-color: #222222;
+    padding: 16px;
+    text-align: center;
+}
+
