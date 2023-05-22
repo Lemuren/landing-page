@@ -1,0 +1,36 @@
+/*
+ * Color 1: #fbfcfb (White)
+ * Color 2: #233127 (Dark green)
+ * Color 3: #394F3F (Light green)
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #fbfcfb;
+}
+
+.header {
+    display: flex;
+    background-color: #233127; 
+}
+
+.header h1 {
+    font-family: Pangolin, cursive;
+    color: #fbfcfb;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header li {
+    text-decoration: none;
+}
+
+
