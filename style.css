@@ -20,9 +20,9 @@ a {
     display: flex;
     background-color: #233127; 
     align-items: center;
+    padding: 16px 10%;
     justify-content: space-between;
 
-    padding: 16px;
 }
 
 .header h1 {
@@ -44,8 +44,29 @@ a {
 
 .showcase {
     display: flex;
-    background: #233127;
+    justify-content: space-between;
+    padding: 0 30% 64px 10%;
     color: #fbfcfb;
+
+    background: #233127;
+
+    background-image: linear-gradient(to right, rgba(35, 49, 39, 1) 45%, rgba(35, 49, 39, 0) 75%),
+    url('img/showcase-image.jpg');
+
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+
+}
+
+.showcase h2 {
+    font-size: 48px;
+    margin: 0;
+    max-width: 50%
+}
+
+.showcase p {
+    max-width: 70%;
 }
 
 .information {
@@ -67,7 +88,9 @@ a {
 
 .card-container {
     display: flex;
-    justify-content: space-evenly;
+    flex: 1;
+    padding: 0 10%;
+    justify-content: center;
     gap: 64px;
 
     flex-wrap: wrap;
@@ -121,15 +144,17 @@ a {
     justify-content: center;
     align-items: center;
 
-    margin: 96px;
+    margin: 96px 0;
 }
 
 .call-to-action {
     display: flex;
     color: #fbfcfb;
+    flex: 0 1 auto;
+    width: 700px;
     background-color: #dbaa24;
 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     padding: 32px 64px;
@@ -143,7 +168,14 @@ a {
     font-weight: 900;
 }
 
+.call-to-action p {
+    margin: 0;
+}
+
 .call-to-action a {
+    flex: 0 0 auto;
+
+    margin-left: 24px;
     border-style: solid;
     border-width: 2px;
     border-color: #fbfcfb;
