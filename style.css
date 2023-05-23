@@ -62,6 +62,8 @@ a {
     background-size: auto 100%;
     background-position: right;
 
+    padding-top: 36px;
+
 }
 
 .showcase h2 {
@@ -168,6 +170,11 @@ a {
 
     margin: 96px 0;
 }
+
+.call-to-action-text {
+    max-width: 500px;
+}
+
 
 .call-to-action {
     display: flex;
